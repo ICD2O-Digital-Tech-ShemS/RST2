@@ -49,8 +49,6 @@ class Level1 extends Phaser.Scene {
     create(data) {
         this.gameEnd = false
         this.score = 0
-        this.background = this.add.image(0, 0, 'starBackground').setScale(2.0)
-        this.background.setOrigin(0, 0)
         
         this.scoreText = this.add.text(10, 10, 'Score:' + this.score.toString(), this.scoreTextStyle)
         
