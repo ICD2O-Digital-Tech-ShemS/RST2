@@ -128,7 +128,7 @@ class GameScene extends Phaser.Scene {
                 item.destroy()
             }
         })
-        if (time > 6000) {
+        if (time > 60000) {
             this.scene.switch('level1')
         }
     }
