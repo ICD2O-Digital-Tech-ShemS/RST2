@@ -15,7 +15,7 @@ const splashScene = new SplashScene();
 const titleScene = new TitleScene();
 const menuScene = new MenuScene();
 const gameScene = new GameScene();
-const level1 = new level1();
+const level1 = new Level1();
 
 
 
